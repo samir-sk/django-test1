@@ -1,0 +1,8 @@
+{
+    "workbench.editor.tabCloseButton": "right",
+    "workbench.editor.showTabs": true,
+    "workbench.editor.enablePreview" :false,
+    "editor.minimap.enabled": false,
+    
+
+}

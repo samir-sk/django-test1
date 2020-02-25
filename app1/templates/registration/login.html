@@ -1,0 +1,20 @@
+{% extends 'base.html' %} 
+{% load crispy_forms_tags %}
+
+{% block leftcontent %}
+<h1>This is Login page</h1>
+<div>
+<form enctype="multipart/form-data" method="post">
+{% csrf_token %}
+
+{{ form | crispy }}<br>
+<input class="btn btn-outline-success btn-sm" type="submit"/>
+<a  class="btn btn-outline-info btn-sm" href="/accounts/register">Register</a>
+<a \ class="btn btn-outline-danger btn-sm" href="/accounts/password/reset/">Reset Password</a>
+
+</form>
+</div>
+       
+{% endblock %}
+
+
