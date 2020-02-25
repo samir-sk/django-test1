@@ -25,7 +25,7 @@ SECRET_KEY = '9zn4&^4n8tdx99eb708hz6&m_5o+3dw#-f#!fz1b4ym0shh4j_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["www.electrostuffs.com",".electrostuffs.com"]
 
 
 # Application definition
