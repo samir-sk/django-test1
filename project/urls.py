@@ -32,3 +32,4 @@ urlpatterns = [
     path('',RedirectView.as_view(url="app1/")),
     
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
